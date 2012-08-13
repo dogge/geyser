@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<style type="text/css">
+
+body {
+	margin: 50px 0px 0px 50px;
+	font-size: 15px;
+	font-family: "times new roman", garamond, serif;
+	background-color: #fff;
+	color: #000;
+	}
+h1 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 30px;
+	}
+h2 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	}
+h3 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	float: left;
+	margin: 20px 20px 0px 0px;
+	}
+h4 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	float: left;
+	margin: 1em 1em 0em 0em;
+	}
+.links {
+	padding-left: 0px;
+	}
+.header {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	margin: 1em 0em 0em 0em;
+	border-bottom: 1px dotted #000;
+	clear: both;
+	float: none;
+	}
+a {
+	color: #000;
+	text-decoration: none;
+	}
+a:visited {
+	color: #aaa;
+	text-decoration: none;
+	}
+.red:hover {color: #f15a00}
+.blue:hover {color: #bae3ff}
+.orange:hover {color: #ffaa44}
+.black:hover {color: #666}
+.white:hover {color: #fff}
+
+.line {
+	height: 1px;
+	background-color: #000;
+	width: 100%;
+	}
+.content {
+	width: 500px;
+	}
+.list {
+	padding-bottom: 1em;
+	}
+
+/**************************************/
+
+body {
+  background-color: #48a;
+  } 
+
+.thing {
+}
+
+.sidebar {
+  padding: 50px 0px 0px 50px;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 620px;
+  background-color: white;
+}
+
+.scatterplot {
+  background-color:rgba(255,255,255,0);
+float: right;
+  position:relative;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 500px;
+  height: 500px;
+  }
+.border {
+  background-color:rgba(255,255,255,0);
+  border: 1px solid lightgray;
+  width:500px;
+  height:500px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.point {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgba(135, 206, 235, .4);
+  }
+
+  .point:hover {
+    background-color: orange;
+    }
+
+    .point:hover > .tooltip {
+      display: block;
+    }   
+
+span.tooltip {
+  display: none;
+  z-index: 10000;
+  position: relative;
+  top: -55px;
+  left: -34px;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background: black;
+  border: 4px solid black;
+  border-radius: 5px;
+
+}
+span.tooltip:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  top: 34px;
+  left: 25px;
+}
+
+.label {
+  color: lightgray;
+  font-size: 12px;
+  width: 510px;
+  text-align: center;
+}
+
+.vert {
+  transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+
+  transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+
+  position: relative;
+  right: 27px;
+}
+
+</style>
+</head>
+<body>
+<div class=thing>
+<div class=border>
+<div class=scatterplot>
+  <div class=point style=bottom:100.00%;left:100.00%;><span class=tooltip>5.100, 96</span></div>  <div class=point style=bottom:96.23%;left:91.43%;><span class=tooltip>4.800, 94</span></div>  <div class=point style=bottom:94.34%;left:86.20%;><span class=tooltip>4.617, 93</span></div>  <div class=point style=bottom:94.34%;left:70.94%;><span class=tooltip>4.083, 93</span></div>  <div class=point style=bottom:92.45%;left:80.00%;><span class=tooltip>4.400, 92</span></div>  <div class=point style=bottom:90.57%;left:72.37%;><span class=tooltip>4.133, 91</span></div>  <div class=point style=bottom:88.68%;left:90.94%;><span class=tooltip>4.783, 90</span></div>  <div class=point style=bottom:88.68%;left:89.03%;><span class=tooltip>4.716, 90</span></div>  <div class=point style=bottom:88.68%;left:87.14%;><span class=tooltip>4.650, 90</span></div>  <div class=point style=bottom:88.68%;left:81.43%;><span class=tooltip>4.450, 90</span></div>  <div class=point style=bottom:88.68%;left:80.49%;><span class=tooltip>4.417, 90</span></div>  <div class=point style=bottom:88.68%;left:78.09%;><span class=tooltip>4.333, 90</span></div>  <div class=point style=bottom:86.79%;left:94.29%;><span class=tooltip>4.900, 89</span></div>  <div class=point style=bottom:86.79%;left:78.09%;><span class=tooltip>4.333, 89</span></div>  <div class=point style=bottom:86.79%;left:67.63%;><span class=tooltip>3.967, 89</span></div>  <div class=point style=bottom:84.91%;left:97.14%;><span class=tooltip>5.000, 88</span></div>  <div class=point style=bottom:84.91%;left:95.23%;><span class=tooltip>4.933, 88</span></div>  <div class=point style=bottom:84.91%;left:88.57%;><span class=tooltip>4.700, 88</span></div>  <div class=point style=bottom:84.91%;left:85.71%;><span class=tooltip>4.600, 88</span></div>  <div class=point style=bottom:84.91%;left:79.06%;><span class=tooltip>4.367, 88</span></div>  <div class=point style=bottom:84.91%;left:72.86%;><span class=tooltip>4.150, 88</span></div>  <div class=point style=bottom:83.02%;left:80.49%;><span class=tooltip>4.417, 87</span></div>  <div class=point style=bottom:83.02%;left:54.29%;><span class=tooltip>3.500, 87</span></div>  <div class=point style=bottom:81.13%;left:95.23%;><span class=tooltip>4.933, 86</span></div>  <div class=point style=bottom:81.13%;left:95.23%;><span class=tooltip>4.933, 86</span></div>  <div class=point style=bottom:81.13%;left:92.86%;><span class=tooltip>4.850, 86</span></div>  <div class=point style=bottom:81.13%;left:73.80%;><span class=tooltip>4.183, 86</span></div>  <div class=point style=bottom:81.13%;left:72.86%;><span class=tooltip>4.150, 86</span></div>  <div class=point style=bottom:81.13%;left:68.57%;><span class=tooltip>4.000, 86</span></div>  <div class=point style=bottom:79.25%;left:85.71%;><span class=tooltip>4.600, 85</span></div>  <div class=point style=bottom:79.25%;left:85.23%;><span class=tooltip>4.583, 85</span></div>  <div class=point style=bottom:79.25%;left:83.80%;><span class=tooltip>4.533, 85</span></div>  <div class=point style=bottom:79.25%;left:78.57%;><span class=tooltip>4.350, 85</span></div>  <div class=point style=bottom:79.25%;left:68.57%;><span class=tooltip>4.000, 85</span></div>  <div class=point style=bottom:79.25%;left:57.14%;><span class=tooltip>3.600, 85</span></div>  <div class=point style=bottom:77.36%;left:91.43%;><span class=tooltip>4.800, 84</span></div>  <div class=point style=bottom:77.36%;left:88.57%;><span class=tooltip>4.700, 84</span></div>  <div class=point style=bottom:77.36%;left:87.63%;><span class=tooltip>4.667, 84</span></div>  <div class=point style=bottom:77.36%;left:84.77%;><span class=tooltip>4.567, 84</span></div>  <div class=point style=bottom:77.36%;left:83.80%;><span class=tooltip>4.533, 84</span></div>  <div class=point style=bottom:77.36%;left:82.86%;><span class=tooltip>4.500, 84</span></div>  <div class=point style=bottom:77.36%;left:71.43%;><span class=tooltip>4.100, 84</span></div>  <div class=point style=bottom:77.36%;left:70.94%;><span class=tooltip>4.083, 84</span></div>  <div class=point style=bottom:77.36%;left:66.20%;><span class=tooltip>3.917, 84</span></div>  <div class=point style=bottom:77.36%;left:64.29%;><span class=tooltip>3.850, 84</span></div>  <div class=point style=bottom:75.47%;left:93.80%;><span class=tooltip>4.883, 83</span></div>  <div class=point style=bottom:75.47%;left:88.57%;><span class=tooltip>4.700, 83</span></div>  <div class=point style=bottom:75.47%;left:82.86%;><span class=tooltip>4.500, 83</span></div>  <div class=point style=bottom:75.47%;left:82.86%;><span class=tooltip>4.500, 83</span></div>  <div class=point style=bottom:75.47%;left:81.43%;><span class=tooltip>4.450, 83</span></div>  <div class=point style=bottom:75.47%;left:81.43%;><span class=tooltip>4.450, 83</span></div>  <div class=point style=bottom:75.47%;left:80.49%;><span class=tooltip>4.417, 83</span></div>  <div class=point style=bottom:75.47%;left:75.71%;><span class=tooltip>4.250, 83</span></div>  <div class=point style=bottom:75.47%;left:75.71%;><span class=tooltip>4.250, 83</span></div>  <div class=point style=bottom:75.47%;left:73.34%;><span class=tooltip>4.167, 83</span></div>  <div class=point style=bottom:75.47%;left:61.91%;><span class=tooltip>3.767, 83</span></div>  <div class=point style=bottom:75.47%;left:57.14%;><span class=tooltip>3.600, 83</span></div>  <div class=point style=bottom:75.47%;left:57.14%;><span class=tooltip>3.600, 83</span></div>  <div class=point style=bottom:75.47%;left:49.06%;><span class=tooltip>3.317, 83</span></div>  <div class=point style=bottom:73.58%;left:94.29%;><span class=tooltip>4.900, 82</span></div>  <div class=point style=bottom:73.58%;left:91.43%;><span class=tooltip>4.800, 82</span></div>  <div class=point style=bottom:73.58%;left:86.66%;><span class=tooltip>4.633, 82</span></div>  <div class=point style=bottom:73.58%;left:83.80%;><span class=tooltip>4.533, 82</span></div>  <div class=point style=bottom:73.58%;left:82.86%;><span class=tooltip>4.500, 82</span></div>  <div class=point style=bottom:73.58%;left:79.51%;><span class=tooltip>4.383, 82</span></div>  <div class=point style=bottom:73.58%;left:79.06%;><span class=tooltip>4.367, 82</span></div>  <div class=point style=bottom:73.58%;left:78.57%;><span class=tooltip>4.350, 82</span></div>  <div class=point style=bottom:73.58%;left:78.09%;><span class=tooltip>4.333, 82</span></div>  <div class=point style=bottom:73.58%;left:76.20%;><span class=tooltip>4.267, 82</span></div>  <div class=point style=bottom:73.58%;left:69.51%;><span class=tooltip>4.033, 82</span></div>  <div class=point style=bottom:73.58%;left:63.80%;><span class=tooltip>3.833, 82</span></div>  <div class=point style=bottom:71.70%;left:91.43%;><span class=tooltip>4.800, 81</span></div>  <div class=point style=bottom:71.70%;left:86.66%;><span class=tooltip>4.633, 81</span></div>  <div class=point style=bottom:71.70%;left:85.71%;><span class=tooltip>4.600, 81</span></div>  <div class=point style=bottom:71.70%;left:82.86%;><span class=tooltip>4.500, 81</span></div>  <div class=point style=bottom:71.70%;left:78.09%;><span class=tooltip>4.333, 81</span></div>  <div class=point style=bottom:71.70%;left:77.63%;><span class=tooltip>4.317, 81</span></div>  <div class=point style=bottom:71.70%;left:75.23%;><span class=tooltip>4.233, 81</span></div>  <div class=point style=bottom:71.70%;left:75.23%;><span class=tooltip>4.233, 81</span></div>  <div class=point style=bottom:71.70%;left:73.34%;><span class=tooltip>4.167, 81</span></div>  <div class=point style=bottom:71.70%;left:71.91%;><span class=tooltip>4.117, 81</span></div>  <div class=point style=bottom:71.70%;left:70.00%;><span class=tooltip>4.050, 81</span></div>  <div class=point style=bottom:71.70%;left:61.91%;><span class=tooltip>3.767, 81</span></div>  <div class=point style=bottom:71.70%;left:59.51%;><span class=tooltip>3.683, 81</span></div>  <div class=point style=bottom:69.81%;left:92.37%;><span class=tooltip>4.833, 80</span></div>  <div class=point style=bottom:69.81%;left:92.37%;><span class=tooltip>4.833, 80</span></div>  <div class=point style=bottom:69.81%;left:88.57%;><span class=tooltip>4.700, 80</span></div>  <div class=point style=bottom:69.81%;left:86.66%;><span class=tooltip>4.633, 80</span></div>  <div class=point style=bottom:69.81%;left:83.34%;><span class=tooltip>4.517, 80</span></div>  <div class=point style=bottom:69.81%;left:78.57%;><span class=tooltip>4.350, 80</span></div>  <div class=point style=bottom:69.81%;left:69.51%;><span class=tooltip>4.033, 80</span></div>  <div class=point style=bottom:69.81%;left:63.34%;><span class=tooltip>3.817, 80</span></div>  <div class=point style=bottom:67.92%;left:84.29%;><span class=tooltip>4.550, 79</span></div>  <div class=point style=bottom:67.92%;left:82.86%;><span class=tooltip>4.500, 79</span></div>  <div class=point style=bottom:67.92%;left:80.94%;><span class=tooltip>4.433, 79</span></div>  <div class=point style=bottom:67.92%;left:80.49%;><span class=tooltip>4.417, 79</span></div>  <div class=point style=bottom:67.92%;left:76.66%;><span class=tooltip>4.283, 79</span></div>  <div class=point style=bottom:67.92%;left:75.71%;><span class=tooltip>4.250, 79</span></div>  <div class=point style=bottom:67.92%;left:71.91%;><span class=tooltip>4.117, 79</span></div>  <div class=point style=bottom:67.92%;left:67.14%;><span class=tooltip>3.950, 79</span></div>  <div class=point style=bottom:67.92%;left:60.94%;><span class=tooltip>3.733, 79</span></div>  <div class=point style=bottom:67.92%;left:57.14%;><span class=tooltip>3.600, 79</span></div>  <div class=point style=bottom:66.04%;left:91.91%;><span class=tooltip>4.817, 78</span></div>  <div class=point style=bottom:66.04%;left:90.49%;><span class=tooltip>4.767, 78</span></div>  <div class=point style=bottom:66.04%;left:88.57%;><span class=tooltip>4.700, 78</span></div>  <div class=point style=bottom:66.04%;left:87.63%;><span class=tooltip>4.667, 78</span></div>  <div class=point style=bottom:66.04%;left:85.71%;><span class=tooltip>4.600, 78</span></div>  <div class=point style=bottom:66.04%;left:84.77%;><span class=tooltip>4.567, 78</span></div>  <div class=point style=bottom:66.04%;left:80.94%;><span class=tooltip>4.433, 78</span></div>  <div class=point style=bottom:66.04%;left:76.20%;><span class=tooltip>4.267, 78</span></div>  <div class=point style=bottom:66.04%;left:74.29%;><span class=tooltip>4.200, 78</span></div>  <div class=point style=bottom:66.04%;left:73.34%;><span class=tooltip>4.167, 78</span></div>  <div class=point style=bottom:66.04%;left:70.94%;><span class=tooltip>4.083, 78</span></div>  <div class=point style=bottom:66.04%;left:68.57%;><span class=tooltip>4.000, 78</span></div>  <div class=point style=bottom:66.04%;left:64.29%;><span class=tooltip>3.850, 78</span></div>  <div class=point style=bottom:66.04%;left:63.80%;><span class=tooltip>3.833, 78</span></div>  <div class=point style=bottom:66.04%;left:52.86%;><span class=tooltip>3.450, 78</span></div>  <div class=point style=bottom:64.15%;left:98.09%;><span class=tooltip>5.033, 77</span></div>  <div class=point style=bottom:64.15%;left:91.91%;><span class=tooltip>4.817, 77</span></div>  <div class=point style=bottom:64.15%;left:85.23%;><span class=tooltip>4.583, 77</span></div>  <div class=point style=bottom:64.15%;left:85.23%;><span class=tooltip>4.583, 77</span></div>  <div class=point style=bottom:64.15%;left:84.77%;><span class=tooltip>4.567, 77</span></div>  <div class=point style=bottom:64.15%;left:81.91%;><span class=tooltip>4.467, 77</span></div>  <div class=point style=bottom:64.15%;left:79.06%;><span class=tooltip>4.367, 77</span></div>  <div class=point style=bottom:64.15%;left:79.03%;><span class=tooltip>4.366, 77</span></div>  <div class=point style=bottom:64.15%;left:76.66%;><span class=tooltip>4.283, 77</span></div>  <div class=point style=bottom:64.15%;left:75.71%;><span class=tooltip>4.250, 77</span></div>  <div class=point style=bottom:64.15%;left:68.57%;><span class=tooltip>4.000, 77</span></div>  <div class=point style=bottom:64.15%;left:67.60%;><span class=tooltip>3.966, 77</span></div>  <div class=point style=bottom:62.26%;left:99.06%;><span class=tooltip>5.067, 76</span></div>  <div class=point style=bottom:62.26%;left:91.43%;><span class=tooltip>4.800, 76</span></div>  <div class=point style=bottom:62.26%;left:85.23%;><span class=tooltip>4.583, 76</span></div>  <div class=point style=bottom:62.26%;left:78.09%;><span class=tooltip>4.333, 76</span></div>  <div class=point style=bottom:62.26%;left:75.23%;><span class=tooltip>4.233, 76</span></div>  <div class=point style=bottom:62.26%;left:72.86%;><span class=tooltip>4.150, 76</span></div>  <div class=point style=bottom:62.26%;left:70.94%;><span class=tooltip>4.083, 76</span></div>  <div class=point style=bottom:62.26%;left:67.14%;><span class=tooltip>3.950, 76</span></div>  <div class=point style=bottom:62.26%;left:65.23%;><span class=tooltip>3.883, 76</span></div>  <div class=point style=bottom:60.38%;left:91.43%;><span class=tooltip>4.800, 75</span></div>  <div class=point style=bottom:60.38%;left:90.00%;><span class=tooltip>4.750, 75</span></div>  <div class=point style=bottom:60.38%;left:89.51%;><span class=tooltip>4.733, 75</span></div>  <div class=point style=bottom:60.38%;left:82.37%;><span class=tooltip>4.483, 75</span></div>  <div class=point style=bottom:60.38%;left:72.86%;><span class=tooltip>4.150, 75</span></div>  <div class=point style=bottom:60.38%;left:72.37%;><span class=tooltip>4.133, 75</span></div>  <div class=point style=bottom:60.38%;left:63.80%;><span class=tooltip>3.833, 75</span></div>  <div class=point style=bottom:60.38%;left:61.43%;><span class=tooltip>3.750, 75</span></div>  <div class=point style=bottom:58.49%;left:83.80%;><span class=tooltip>4.533, 74</span></div>  <div class=point style=bottom:58.49%;left:81.91%;><span class=tooltip>4.467, 74</span></div>  <div class=point style=bottom:58.49%;left:78.57%;><span class=tooltip>4.350, 74</span></div>  <div class=point style=bottom:58.49%;left:73.34%;><span class=tooltip>4.167, 74</span></div>  <div class=point style=bottom:58.49%;left:63.80%;><span class=tooltip>3.833, 74</span></div>  <div class=point style=bottom:58.49%;left:49.51%;><span class=tooltip>3.333, 74</span></div>  <div class=point style=bottom:56.60%;left:88.57%;><span class=tooltip>4.700, 73</span></div>  <div class=point style=bottom:56.60%;left:83.80%;><span class=tooltip>4.533, 73</span></div>  <div class=point style=bottom:56.60%;left:82.86%;><span class=tooltip>4.500, 73</span></div>  <div class=point style=bottom:56.60%;left:82.86%;><span class=tooltip>4.500, 73</span></div>  <div class=point style=bottom:56.60%;left:77.14%;><span class=tooltip>4.300, 73</span></div>  <div class=point style=bottom:56.60%;left:70.49%;><span class=tooltip>4.067, 73</span></div>  <div class=point style=bottom:56.60%;left:56.20%;><span class=tooltip>3.567, 73</span></div>  <div class=point style=bottom:54.72%;left:77.14%;><span class=tooltip>4.300, 72</span></div>  <div class=point style=bottom:52.83%;left:68.57%;><span class=tooltip>4.000, 71</span></div>  <div class=point style=bottom:52.83%;left:66.20%;><span class=tooltip>3.917, 71</span></div>  <div class=point style=bottom:52.83%;left:60.49%;><span class=tooltip>3.717, 71</span></div>  <div class=point style=bottom:52.83%;left:56.20%;><span class=tooltip>3.567, 71</span></div>  <div class=point style=bottom:52.83%;left:22.37%;><span class=tooltip>2.383, 71</span></div>  <div class=point style=bottom:50.94%;left:71.43%;><span class=tooltip>4.100, 70</span></div>  <div class=point style=bottom:50.94%;left:70.94%;><span class=tooltip>4.083, 70</span></div>  <div class=point style=bottom:50.94%;left:68.57%;><span class=tooltip>4.000, 70</span></div>  <div class=point style=bottom:50.94%;left:66.20%;><span class=tooltip>3.917, 70</span></div>  <div class=point style=bottom:49.06%;left:70.49%;><span class=tooltip>4.067, 69</span></div>  <div class=point style=bottom:49.06%;left:41.91%;><span class=tooltip>3.067, 69</span></div>  <div class=point style=bottom:47.17%;left:49.51%;><span class=tooltip>3.333, 68</span></div>  <div class=point style=bottom:45.28%;left:15.23%;><span class=tooltip>2.133, 67</span></div>  <div class=point style=bottom:43.40%;left:54.29%;><span class=tooltip>3.500, 66</span></div>  <div class=point style=bottom:43.40%;left:50.49%;><span class=tooltip>3.367, 66</span></div>  <div class=point style=bottom:41.51%;left:29.51%;><span class=tooltip>2.633, 65</span></div>  <div class=point style=bottom:41.51%;left:22.86%;><span class=tooltip>2.400, 65</span></div>  <div class=point style=bottom:41.51%;left:13.34%;><span class=tooltip>2.067, 65</span></div>  <div class=point style=bottom:39.62%;left:63.80%;><span class=tooltip>3.833, 64</span></div>  <div class=point style=bottom:39.62%;left:51.91%;><span class=tooltip>3.417, 64</span></div>  <div class=point style=bottom:39.62%;left:20.94%;><span class=tooltip>2.333, 64</span></div>  <div class=point style=bottom:39.62%;left:01.91%;><span class=tooltip>1.667, 64</span></div>  <div class=point style=bottom:37.74%;left:37.14%;><span class=tooltip>2.900, 63</span></div>  <div class=point style=bottom:37.74%;left:21.91%;><span class=tooltip>2.367, 63</span></div>  <div class=point style=bottom:37.74%;left:06.66%;><span class=tooltip>1.833, 63</span></div>  <div class=point style=bottom:35.85%;left:25.23%;><span class=tooltip>2.483, 62</span></div>  <div class=point style=bottom:35.85%;left:19.51%;><span class=tooltip>2.283, 62</span></div>  <div class=point style=bottom:35.85%;left:10.94%;><span class=tooltip>1.983, 62</span></div>  <div class=point style=bottom:35.85%;left:04.29%;><span class=tooltip>1.750, 62</span></div>  <div class=point style=bottom:32.08%;left:18.57%;><span class=tooltip>2.250, 60</span></div>  <div class=point style=bottom:32.08%;left:18.09%;><span class=tooltip>2.233, 60</span></div>  <div class=point style=bottom:32.08%;left:17.14%;><span class=tooltip>2.200, 60</span></div>  <div class=point style=bottom:32.08%;left:14.29%;><span class=tooltip>2.100, 60</span></div>  <div class=point style=bottom:32.08%;left:11.91%;><span class=tooltip>2.017, 60</span></div>  <div class=point style=bottom:32.08%;left:06.20%;><span class=tooltip>1.817, 60</span></div>  <div class=point style=bottom:30.19%;left:20.00%;><span class=tooltip>2.300, 59</span></div>  <div class=point style=bottom:30.19%;left:18.09%;><span class=tooltip>2.233, 59</span></div>  <div class=point style=bottom:30.19%;left:11.43%;><span class=tooltip>2.000, 59</span></div>  <div class=point style=bottom:30.19%;left:10.94%;><span class=tooltip>1.983, 59</span></div>  <div class=point style=bottom:30.19%;left:06.66%;><span class=tooltip>1.833, 59</span></div>  <div class=point style=bottom:30.19%;left:06.20%;><span class=tooltip>1.817, 59</span></div>  <div class=point style=bottom:30.19%;left:02.86%;><span class=tooltip>1.700, 59</span></div>  <div class=point style=bottom:28.30%;left:11.43%;><span class=tooltip>2.000, 58</span></div>  <div class=point style=bottom:28.30%;left:08.09%;><span class=tooltip>1.883, 58</span></div>  <div class=point style=bottom:28.30%;left:07.14%;><span class=tooltip>1.850, 58</span></div>  <div class=point style=bottom:28.30%;left:04.29%;><span class=tooltip>1.750, 58</span></div>  <div class=point style=bottom:26.42%;left:13.80%;><span class=tooltip>2.083, 57</span></div>  <div class=point style=bottom:26.42%;left:13.80%;><span class=tooltip>2.083, 57</span></div>  <div class=point style=bottom:26.42%;left:06.66%;><span class=tooltip>1.833, 57</span></div>  <div class=point style=bottom:24.53%;left:34.29%;><span class=tooltip>2.800, 56</span></div>  <div class=point style=bottom:24.53%;left:11.43%;><span class=tooltip>2.000, 56</span></div>  <div class=point style=bottom:24.53%;left:10.49%;><span class=tooltip>1.967, 56</span></div>  <div class=point style=bottom:24.53%;left:10.49%;><span class=tooltip>1.967, 56</span></div>  <div class=point style=bottom:22.64%;left:36.66%;><span class=tooltip>2.883, 55</span></div>  <div class=point style=bottom:22.64%;left:19.06%;><span class=tooltip>2.267, 55</span></div>  <div class=point style=bottom:22.64%;left:16.66%;><span class=tooltip>2.183, 55</span></div>  <div class=point style=bottom:22.64%;left:11.43%;><span class=tooltip>2.000, 55</span></div>  <div class=point style=bottom:22.64%;left:10.49%;><span class=tooltip>1.967, 55</span></div>  <div class=point style=bottom:22.64%;left:08.09%;><span class=tooltip>1.883, 55</span></div>  <div class=point style=bottom:20.75%;left:23.34%;><span class=tooltip>2.417, 54</span></div>  <div class=point style=bottom:20.75%;left:17.14%;><span class=tooltip>2.200, 54</span></div>  <div class=point style=bottom:20.75%;left:08.09%;><span class=tooltip>1.883, 54</span></div>  <div class=point style=bottom:20.75%;left:07.14%;><span class=tooltip>1.850, 54</span></div>  <div class=point style=bottom:20.75%;left:06.66%;><span class=tooltip>1.833, 54</span></div>  <div class=point style=bottom:20.75%;left:06.66%;><span class=tooltip>1.833, 54</span></div>  <div class=point style=bottom:20.75%;left:05.71%;><span class=tooltip>1.800, 54</span></div>  <div class=point style=bottom:20.75%;left:04.29%;><span class=tooltip>1.750, 54</span></div>  <div class=point style=bottom:20.75%;left:03.80%;><span class=tooltip>1.733, 54</span></div>  <div class=point style=bottom:18.87%;left:29.06%;><span class=tooltip>2.617, 53</span></div>  <div class=point style=bottom:18.87%;left:22.86%;><span class=tooltip>2.400, 53</span></div>  <div class=point style=bottom:18.87%;left:14.29%;><span class=tooltip>2.100, 53</span></div>  <div class=point style=bottom:18.87%;left:12.37%;><span class=tooltip>2.033, 53</span></div>  <div class=point style=bottom:18.87%;left:07.63%;><span class=tooltip>1.867, 53</span></div>  <div class=point style=bottom:18.87%;left:05.71%;><span class=tooltip>1.800, 53</span></div>  <div class=point style=bottom:18.87%;left:05.71%;><span class=tooltip>1.800, 53</span></div>  <div class=point style=bottom:16.98%;left:16.20%;><span class=tooltip>2.167, 52</span></div>  <div class=point style=bottom:16.98%;left:11.91%;><span class=tooltip>2.017, 52</span></div>  <div class=point style=bottom:16.98%;left:09.51%;><span class=tooltip>1.933, 52</span></div>  <div class=point style=bottom:16.98%;left:05.23%;><span class=tooltip>1.783, 52</span></div>  <div class=point style=bottom:16.98%;left:00.00%;><span class=tooltip>1.600, 52</span></div>  <div class=point style=bottom:15.09%;left:18.57%;><span class=tooltip>2.250, 51</span></div>  <div class=point style=bottom:15.09%;left:12.37%;><span class=tooltip>2.033, 51</span></div>  <div class=point style=bottom:15.09%;left:10.00%;><span class=tooltip>1.950, 51</span></div>  <div class=point style=bottom:15.09%;left:08.09%;><span class=tooltip>1.883, 51</span></div>  <div class=point style=bottom:15.09%;left:07.63%;><span class=tooltip>1.867, 51</span></div>  <div class=point style=bottom:15.09%;left:05.71%;><span class=tooltip>1.800, 51</span></div>  <div class=point style=bottom:13.21%;left:23.34%;><span class=tooltip>2.417, 50</span></div>  <div class=point style=bottom:13.21%;left:20.49%;><span class=tooltip>2.317, 50</span></div>  <div class=point style=bottom:13.21%;left:17.63%;><span class=tooltip>2.217, 50</span></div>  <div class=point style=bottom:13.21%;left:07.63%;><span class=tooltip>1.867, 50</span></div>  <div class=point style=bottom:13.21%;left:07.63%;><span class=tooltip>1.867, 50</span></div>  <div class=point style=bottom:11.32%;left:14.29%;><span class=tooltip>2.100, 49</span></div>  <div class=point style=bottom:11.32%;left:11.91%;><span class=tooltip>2.017, 49</span></div>  <div class=point style=bottom:11.32%;left:09.51%;><span class=tooltip>1.933, 49</span></div>  <div class=point style=bottom:11.32%;left:09.06%;><span class=tooltip>1.917, 49</span></div>  <div class=point style=bottom:11.32%;left:07.63%;><span class=tooltip>1.867, 49</span></div>  <div class=point style=bottom:09.43%;left:16.20%;><span class=tooltip>2.167, 48</span></div>  <div class=point style=bottom:09.43%;left:07.63%;><span class=tooltip>1.867, 48</span></div>  <div class=point style=bottom:09.43%;left:04.29%;><span class=tooltip>1.750, 48</span></div>  <div class=point style=bottom:07.55%;left:21.43%;><span class=tooltip>2.350, 47</span></div>  <div class=point style=bottom:07.55%;left:07.63%;><span class=tooltip>1.867, 47</span></div>  <div class=point style=bottom:07.55%;left:04.29%;><span class=tooltip>1.750, 47</span></div>  <div class=point style=bottom:07.55%;left:04.29%;><span class=tooltip>1.750, 47</span></div>  <div class=point style=bottom:05.66%;left:15.71%;><span class=tooltip>2.150, 46</span></div>  <div class=point style=bottom:05.66%;left:06.66%;><span class=tooltip>1.833, 46</span></div>  <div class=point style=bottom:05.66%;left:06.66%;><span class=tooltip>1.833, 46</span></div>  <div class=point style=bottom:05.66%;left:06.20%;><span class=tooltip>1.817, 46</span></div>  <div class=point style=bottom:05.66%;left:05.23%;><span class=tooltip>1.783, 46</span></div>  <div class=point style=bottom:03.77%;left:17.14%;><span class=tooltip>2.200, 45</span></div>  <div class=point style=bottom:03.77%;left:09.06%;><span class=tooltip>1.917, 45</span></div>  <div class=point style=bottom:03.77%;left:07.63%;><span class=tooltip>1.867, 45</span></div>  <div class=point style=bottom:00.00%;left:10.94%;><span class=tooltip>1.983, 43</span></div>
+  </div>
+</div>
+</div>
+<div class='label vert'><span style=float:left;>43</span> Time between eruptions (minutes) <span style=float:right;>96</span></div>
+<div class='label'><span style=float:left;>1.6</span><span style=float:none;>Duration of eruption (minutes)</span><span style=float:right;>5.1</span></div>
+</div>
+<!-- 
+<div class=sidebar>
+<h1 class=header>Old Faithful Geyser</h1>
+<p>source: http://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat</p>
+</div>
+-->
+</body>
+</html>
